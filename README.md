@@ -10,17 +10,23 @@ PC System with Linux OS, NS2 software.
 - STEP 1: Start the program.
 - STEP 2: Declare the global variables ns for creating a new simulator.
 - STEP 3: Set the color for packets.
-- STEP 4: Open the network animator file in the write mode. STEP 5: Open the trace file and the win file in the write mode. STEP 6: Transfer the packets in network.
-- STEP 5: Create the capable no. of nodes.
-- STEP 6: Create the duplex-link between the nodes including the delay time, bandwidth and dropping queue mechanism.
-- STEP 7: Give the position for the links between the nodes.
-- Step 8: Set a TCP connection for source node.
-- STEP 9: Set the destination node using TCP sink.
-- STEP 10: Set the window size and the packet size for the TCP.
-- STEP 11: Set up the ftp over the TCP connection.
-- STEP 12: Set the UDP and TCP connection for the source and destination. STEP 15: Create the traffic generator CBR for the source and destination files. STEP 16: Define the plot window and finish procedure.
-- STEP 13: In the definition of the finish procedure declare the global variables. STEP 18: Close the trace file and namefile and execute the network animation file. STEP 19: At the particular time call the finish procedure.
-- STEP 14: Stop the program.
+- STEP 4: Open the network animator file in the write mode.
+- STEP 5: Open the trace file and the win file in the write mode.
+- STEP 6: Transfer the packets in network.
+- STEP 7: Create the capable no. of nodes.
+- STEP 8: Create the duplex-link between the nodes including the delay time, bandwidth and dropping queue mechanism.
+- STEP 9: Give the position for the links between the nodes.
+- Step 10: Set a TCP connection for source node.
+- STEP 11: Set the destination node using TCP sink.
+- STEP 12: Set the window size and the packet size for the TCP.
+- STEP 13: Set up the ftp over the TCP connection.
+- STEP 14: Set the UDP and TCP connection for the source and destination.
+- STEP 15: Create the traffic generator CBR for the source and destination files.
+- STEP 16: Define the plot window and finish procedure.
+- STEP 17: In the definition of the finish procedure declare the global variables.
+- STEP 18: Close the trace file and namefile and execute the network animation file.
+- STEP 19: At the particular time call the finish procedure.
+- STEP 20: Stop the program.
  
 # PROGRAM
 ```
